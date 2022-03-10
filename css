@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding-top: 150px;
+	width: 100%;
+	
+	
+}
+
+header{
+	position: fixed;
+	background-color: #4682B4;
+	width: 100%;
+	height: 150px;
+	top: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+li{
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	flex-wrap: wrap;
+
+}
+
+
+a:hover{
+	background-color: black;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color: gray;
+	
+}
+
+#conteiner{
+	background-color: gray;
+}
+
+
+main{
+
+	max-width: 980px;
+	margin: auto;
+	background-image: url(fundo1.jpg);
+	background-repeat: no-repeat;
+	background-color: #E6E6E6;
+	background-attachment: fixed;
+	/*box-shadow: -1px 0px 20px black;  coloca sombra nas bordas  */
+
+
+
+}
+
+
+
+div p{
+	text-align: justify;
+	width: 400px;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 10px;
+	/* text-shadow: -1px 0px 20px black;  coloca sombra no texto */
+	column-count: auto;
+	word-wrap: break-word;
+}
+
+#pull{
+	color: darkolivegreen;
+}
+
+footer{
+	
+	height: 100px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	background-color: #4682B4;
+}
+
