@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- atributo de linguagem da página -->
+
+	<head> <!-- cabeçalho  -->
+		<title>Treino WebDesigner</title> <!-- título da página -->
+		<meta charset="utf-8"> <!-- comunica ao navegador qual o formato de codificação de cararteres usado nesse documento -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="description" content="Desenvolvimento de páginas web, pessoais e empresariais.">
+		<link rel="stylesheet" type="text/css" href="estilos.css"> <!-- aqui é a lincagem do documento de css onde iremos usar para alterar as propriedades da página em html-->
+	
+
+
+	</head> 
+
+	<body> <!-- corpo -->
+		<header> <!-- Cabeçalho -->
+			<nav> <!-- menu navegação -->
+				<ul>
+					<li><a href="treino.html">Home</a></li> <!-- link menu -->
+					<li><a href="#">Quem Somos</a></li> <!-- link menu -->
+					<li><a href="#">Cases</a></li> <!-- link menu -->
+					<li><a href="formulario.html">Contato</a></li> <!-- link menu -->
+				</ul>
+			</nav>
+		</header>
+
+
+		<div id="conteiner">
+
+		<main>
+			<div>
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. <strong id="pull">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60</strong>, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+			</div>
+
+			<div>
+			<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. <strong id="pull">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60</strong>, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+			</div>
+		</main>
+
+	</div>
+	
+
+
+		<footer> <!-- roda pé -->
+			<p>www.treinowebdesigner.com.br</p>
+		</footer>
+		
+
+
+	</body>
+</html>
+
